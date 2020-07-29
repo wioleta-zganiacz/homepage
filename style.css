@@ -1,0 +1,64 @@
+body {
+    background:#5f2c70;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.main-heading {
+    background:linear-gradient(5deg, #f9c802, #ec6c06);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: rgb(143, 83, 5) 0.1em 0.1em 0.2em
+}
+
+
+.secondary-heading {
+   color:lightgoldenrodyellow;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-shadow: black 0.1em 0.1em 0.2em
+   
+}
+h4 {
+    color:lightgoldenrodyellow;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+p {
+    color:#BA55D3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   
+     
+}
+.WTF {
+    color:#9932CC;
+}
+
+a {
+    color:white;
+}
+
+img {
+ position:fixed;
+}
+
+li {
+    text-align: center;
+}
+
+
+.img-profile {
+    margin:30px ;
+}
+
+img {
+    margin:10px;
+}
+
+
+footer {
+    text-align: left;
+    padding: 750px 680px;
+}
