@@ -40,9 +40,7 @@ a {
     color:white;
 }
 
-img {
- position:fixed;
-}
+
 
 li {
     text-align: center;
@@ -55,10 +53,11 @@ li {
 
 img {
     margin:10px;
+    position: relative;
 }
 
 
 footer {
     text-align: left;
-    padding: 750px 680px;
+   
 }
