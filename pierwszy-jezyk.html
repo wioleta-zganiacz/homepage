@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pierwsze kroki</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav  class="menu-navigation" id="menu">
-            <ul>
-                <li><a class="menu-navigation__link" href="index.html">Strona główna</a></li>
-                <li><a class="menu-navigation__link" href="nauka-html.html">Dziennik</a></li>
-                <li><a class="menu-navigation__link" href="pierwszy-jezyk.html">HTML</a></li>
-            </ul>
-        </nav>
+      <nav class="menu-navigation" id="menu">
+        <a class="menu-navigation__link" href="index.html">Strona główna</a>
+        <a class="menu-navigation__link" href="nauka-html.html">Dziennik</a>
+        <a class="menu-navigation__link" href="pierwszy-jezyk.html">HTML</a>
+      </nav>
     </header>
 
-    <main>
-        <header id="top">
-            <h1 class="main-heading">HTML - Pierwszy krok do nauki frontendu</h1>
-        </header>
-        <section>
-            <article>
-                <h2 class="secondary-heading">Poznaj HTML czyli <i>Hypertext</i> Markup Language</h2>
-                <p>Pamiętaj,że Html nie jest językiem programowania a <strong>jest językiem znaczników</strong><br>
-                    Opakowuje i opisuję treść strony<br>
-                    Mówi przeglądarce o strukturze dokumentu i o tym co ma wczytać</p>
-            </article>
+    <main class="main">
+      <header id="top">
+        <h1 class="main__heading">HTML - Pierwszy krok do nauki frontendu</h1>
+      </header>
+      <section>
+        <article>
+          <h2 class="secondary-heading">
+            Poznaj HTML czyli <i>Hypertext</i> Markup Language
+          </h2>
+          <p>
+            Pamiętaj,że Html nie jest językiem programowania a
+            <strong>jest językiem znaczników</strong><br />
+            Opakowuje i opisuję treść strony<br />
+            Mówi przeglądarce o strukturze dokumentu i o tym co ma wczytać
+          </p>
+        </article>
 
-            <article>
-                <h2 class="secondary-heading">Drugi krok to poznanie CSS czyli kolorujemy swoją stronę </h2>
-                <p><i>Cascading Style Sheets</i> czyli Css odpowiada za prezentację naszej strony <br>
-                    Potraktuj je jak kredki, które kolorują Twoją strone i nadają jej barw.<br>
-                    >Css ma swoje znaczniki które są niezmienne i to dzięki nim przeglądarki interpretują naszą
-                    stronę</p>
-            </article>
+        <article>
+          <h2 class="secondary-heading">
+            Drugi krok to poznanie CSS czyli kolorujemy swoją stronę
+          </h2>
+          <p>
+            <i>Cascading Style Sheets</i> czyli Css odpowiada za prezentację
+            naszej strony <br />
+            Potraktuj je jak kredki, które kolorują Twoją strone i nadają jej
+            barw.<br />
+            >Css ma swoje znaczniki które są niezmienne i to dzięki nim
+            przeglądarki interpretują naszą stronę
+          </p>
+        </article>
 
-            <article>
-                <h2 class="secondary-heading">JavaScript inaczej JS</h2>
-                <p>
-                    <strong>JavaScript nie ma nic wspólnego z Java!</strong>która jest całkowicie innym językiem
-                     programowania. <br>
-                     JavaScript odpowiada za interakcje na naszej stronie - tak jakby nadaje jej życia/interakcji
-                     dzięki, czemu rozszerza możliwości naszej strony<br>
-                    Potrafi wpływać na Html i CSS
-             </article>
-        </section>
-        <img src="programmers-concept-with-flat-design_23-2147858469.jpg" alt="zdjecie html">
-
+        <article>
+          <h2 class="secondary-heading">JavaScript inaczej JS</h2>
+          <p>
+            <strong>JavaScript nie ma nic wspólnego z Java!</strong>która jest
+            całkowicie innym językiem programowania. <br />
+            JavaScript odpowiada za interakcje na naszej stronie - tak jakby
+            nadaje jej życia/interakcji dzięki, czemu rozszerza możliwości
+            naszej strony<br />
+            Potrafi wpływać na Html i CSS
+          </p>
+        </article>
+      </section>
+      <img class="main__secondary-heading-image"
+        src="photos/programmers-concept-with-flat-design_23-2147858469.jpg"
+        alt="zdjecie html"
+      />
     </main>
-    <footer> Strona domowa W.Zganiacz - jako projekt pracy domowej z WTF: Co ten frontend.</footer>
+    <footer class="footer">
+      Strona domowa W.Zganiacz - jako projekt pracy domowej z WTF: Co ten
+      frontend.
+    </footer>
     <script src="main.js"></script>
-
-</body>
-
+  </body>
 </html>
