@@ -1,83 +1,82 @@
 body {
-    background: #30616F;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  background-image: linear-gradient(
+    111.1deg,
+    rgba(0, 40, 70, 1) -4.8%,
+    rgba(255, 115, 115, 1) 82.7%,
+    rgba(255, 175, 123, 1) 97.2%
+  );
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 /* Menu */
 #menu {
- color:#9932CC;
+  color: #9932cc;
 }
 
 .main {
-max-width: 1000px;
-margin: 0 auto;
-text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .main__heading {
-    background:linear-gradient(5deg, #f9c802, #ec6c06);
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: rgb(143, 83, 5) 0.1em 0.1em 0.2em;
+  background: linear-gradient(5deg, #f9c802, #ec6c06);
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: rgb(143, 83, 5) 0.1em 0.1em 0.2em;
 }
 
 .main__decription {
-    color:#FFCDB2;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;  
+  color: #ffcdb2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
-
-
-.main__secondary-heading {
-   color:lightgoldenrodyellow;
-   margin-left: 400px;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   text-shadow: black 0.1em 0.1em 0.2em
-   
-}
-h4 {
-    color:lightgoldenrodyellow;
-    text-align: center;
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
-
-
-
-p {
-    color:#FFCDB2;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;   
-}
-
-.WTF {
-    color:#9932CC;
-}
-
-a {
-    color:white;
-}
-
-
-
-li {
-    text-align: center;
-}
-
 
 .main__image {
-    margin: 30px;
-    float: left;
+  margin: 30px;
+  float: left;
+}
+
+.main__secondary-heading {
+  color: lightgoldenrodyellow;
+  margin-left: 400px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .main__secondary-heading-image {
-    margin:10px;
-    position: relative;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  position: relative;
 }
 
+h4 {
+  color: lightgoldenrodyellow;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+p {
+  color: #ffcdb2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.WTF {
+  color: #9932cc;
+}
+
+a {
+  color: white;
+}
+
+li {
+  text-align: center;
+}
 
 .footer {
-    color: lightgoldenrodyellow;
-    max-width: 1000px;
-    margin: 0 auto;
-   
+  color: lightgoldenrodyellow;
+  max-width: 1000px;
+  margin: 0 auto;
 }
